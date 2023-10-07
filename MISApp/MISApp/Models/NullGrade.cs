@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MISApp.Models
+﻿namespace MISApp.Models
 {
     public class NullGrade : Grade
     {
-        public NullGrade() 
+        public NullGrade()
         {
             this.Id = -1;
             this.Name = "Unknown";

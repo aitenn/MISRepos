@@ -11,6 +11,6 @@ namespace MISApp.Models
         public int Id { get; set; }
         public DateTime? Date { get; set; }
         public Grade? Grade { get; set; }
-        public List<StudentFeedback>? StudentFeedbacks { get; set; }
+        public ICollection<StudentFeedback>? StudentFeedbacks { get; set; }
     }
 }

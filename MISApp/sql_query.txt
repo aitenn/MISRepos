@@ -8,20 +8,12 @@ GO
 
 CREATE TABLE Classes
 (
-Id uniqueidentifier PRIMARY KEY DEFAULT (NEWID()),
+Id INT PRIMARY KEY DEFAULT,
 [Name] NVARCHAR(30) NOT NULL,
 [Year] INT NOT NULL,
 Teacher INT REFERENCES Teachers (Id)
 )
 
-GO
-
-CREATE TABLE Grades
-(
-Id INT PRIMARY KEY,
-Mark INT,
-[Percentage] INT
-)
 
 GO
 
@@ -35,35 +27,6 @@ ClassId INT REFERENCES Classes (Id)
 )
 
 GO
-
-CREATE TABLE StudentsGradesDates
-(
-Id INT PRIMARY KEY,
-[Date] DATE,
-StudentId INT REFERENCES Students (Id),
-GradeId INT REFERENCES Grades (Id),
-GradebookId INT REFERENCES Gradebooks (Id)
-
-)
-
-GO
-
-CREATE TABLE Subjects
-(
-Id INT PRIMARY KEY,
-[Name] NVARCHAR(50)
-)
-
-GO
-
-CREATE TABLE Gradebooks
-(
-Id INT PRIMARY KEY,
-SubjectId INT REFERENCES Subjects (Id)
-)
-
-GO
-
 
 
 CREATE TABLE Teachers
