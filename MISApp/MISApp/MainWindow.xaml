@@ -1,0 +1,23 @@
+﻿<Window x:Class="MISApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MISApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+    <DockPanel Background="#FF194973">
+
+
+        <UniformGrid DockPanel.Dock="Bottom" Columns="4" Height="50">
+            <Button Content="Gradebooks" Click="GradebooksClick"/>
+            <Button Content="Registers" Click="RegistersClick"/>
+            <Button Content="Feedback" Click="FeedbackClick"/>
+            <Button Content="More" Click="MoreClick"/>
+        </UniformGrid>
+        
+         <ContentControl DockPanel.Dock="Top" Content="{Binding ActiveViewModel}">
+            
+        </ContentControl>
+    </DockPanel>
+</Window>
