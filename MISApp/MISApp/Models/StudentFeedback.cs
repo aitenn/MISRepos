@@ -8,10 +8,6 @@ namespace MISApp.Models
 {
     public class StudentFeedback
     {
-        private int id;
-        private Student? studentName;
-        private string? feedback;
-
         public int Id { get; set; }
         public Student? StudentName { get; set;}
         public string? Feedback { get; set; }

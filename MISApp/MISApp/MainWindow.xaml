@@ -9,11 +9,10 @@
     <DockPanel Background="#FF194973">
 
 
-        <UniformGrid DockPanel.Dock="Bottom" Columns="4" Height="50">
-            <Button Content="Gradebooks" Click="GradebooksClick"/>
+        <UniformGrid DockPanel.Dock="Bottom" Columns="3" Height="50">
             <Button Content="Registers" Click="RegistersClick"/>
             <Button Content="Feedback" Click="FeedbackClick"/>
-            <Button Content="More" Click="MoreClick"/>
+            <Button Content="Home" Click="HomeClick"/>
         </UniformGrid>
         
          <ContentControl DockPanel.Dock="Top" Content="{Binding ActiveViewModel}">

@@ -18,10 +18,6 @@
             <v:FeedbackView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:GradebookViewModel}">
-            <v:GradebookView/>
-        </DataTemplate>
-
         <DataTemplate DataType="{x:Type vm:RegisterViewModel}">
             <v:RegisterView/>
         </DataTemplate>
@@ -30,17 +26,9 @@
             <v:StudentsView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:SubjectsViewModel}">
-            <v:SubjectsView/>
-        </DataTemplate>
-
         <DataTemplate DataType="{x:Type vm:TeachersViewModel}">
             <v:TeachersView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:MoreViewModel}">
-            <v:MoreView/>
-        </DataTemplate>
-        
     </Application.Resources>
 </Application>

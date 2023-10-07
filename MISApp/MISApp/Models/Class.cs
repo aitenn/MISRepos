@@ -8,12 +8,6 @@ namespace MISApp.Models
 {
     public class Class
     {
-        private int id;
-        private string name;
-        private int year;
-        private Teacher teacher;
-        private List<Student> students;
-
         public int Id { get; set; }
         public string Name { get; set; }
         public int Year { get; set; }

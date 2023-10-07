@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace MISApp.Models
 {
-    public class Subject
+    public class StudentAttendance
     {
-        private int id;
-        private string? name;
-
         public int Id { get; set; }
-        public string? Name { get; set; }
+        public Student? StudentName { get; set; }
+        public bool IsRegistered { get; set; }
     }
 }
