@@ -18,9 +18,9 @@ namespace MISApp.Views
     /// <summary>
     /// Interaction logic for FeedbackView.xaml
     /// </summary>
-    public partial class FeedbackView : UserControl
+    public partial class FeedbackRegisterView : UserControl
     {
-        public FeedbackView()
+        public FeedbackRegisterView()
         {
             InitializeComponent();
         }

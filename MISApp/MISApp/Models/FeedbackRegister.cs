@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MISApp.Models
 {
-    public class Feedback
+    public class FeedbackRegister
     {
         public int Id { get; set; }
         public DateTime? Date { get; set; }

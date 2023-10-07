@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MISApp.Models
 {
-    public class Register
+    public class AttendanceRegister
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }

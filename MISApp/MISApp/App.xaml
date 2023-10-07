@@ -14,12 +14,12 @@
             <v:ClassesView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:FeedbackViewModel}">
-            <v:FeedbackView/>
+        <DataTemplate DataType="{x:Type vm:FeedbackRegisterViewModel}">
+            <v:FeedbackRegisterView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:RegisterViewModel}">
-            <v:RegisterView/>
+        <DataTemplate DataType="{x:Type vm:AttendanceRegisterViewModel}">
+            <v:AttendanceRegisterView/>
         </DataTemplate>
 
         <DataTemplate DataType="{x:Type vm:StudentsViewModel}">

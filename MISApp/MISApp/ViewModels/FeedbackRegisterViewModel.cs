@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MISApp.ViewModels
 {
-    public class SubjectsViewModel : ViewModelBase
+    public class FeedbackRegisterViewModel : ViewModelBase
     {
     }
 }

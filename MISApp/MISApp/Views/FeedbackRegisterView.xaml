@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="MISApp.Views.RegisterView"
+﻿<UserControl x:Class="MISApp.Views.FeedbackRegisterView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:MISApp.Views"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="500">
-    <Grid Background="NavajoWhite">
+    <Grid Background="Aqua">
             
     </Grid>
 </UserControl>
