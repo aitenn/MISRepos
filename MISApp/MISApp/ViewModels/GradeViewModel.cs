@@ -2,7 +2,7 @@
 
 namespace MISApp.ViewModels
 {
-    public class ClassesViewModel : ViewModelBase
+    public class GradeViewModel : ViewModelBase
     {
     }
 }

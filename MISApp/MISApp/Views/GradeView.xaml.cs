@@ -5,9 +5,9 @@ namespace MISApp.Views
     /// <summary>
     /// Interaction logic for ClassesView.xaml
     /// </summary>
-    public partial class ClassesView : UserControl
+    public partial class GradeView : UserControl
     {
-        public ClassesView()
+        public GradeView()
         {
             InitializeComponent();
         }

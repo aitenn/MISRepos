@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MISApp.Models
 {
-    public class NullClass : Class
+    public class NullGrade : Grade
     {
-        public NullClass() 
+        public NullGrade() 
         {
             this.Id = -1;
             this.Name = "Unknown";

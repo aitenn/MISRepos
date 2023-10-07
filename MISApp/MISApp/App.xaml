@@ -10,8 +10,8 @@
             <v:HomePageView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:ClassesViewModel}">
-            <v:ClassesView/>
+        <DataTemplate DataType="{x:Type vm:GradeViewModel}">
+            <v:GradeView/>
         </DataTemplate>
 
         <DataTemplate DataType="{x:Type vm:FeedbackRegisterViewModel}">
