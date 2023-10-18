@@ -10,7 +10,7 @@ namespace MISApp.Models
     {
         public int Id { get; set; }
         public DateTime Date { get; set; }
-        public Grade? Grade { get; set; }
+       // public Grade? Grade { get; set; }
         public ICollection<StudentAttendance>? StudentAttendances { get; set; }
     }
 }

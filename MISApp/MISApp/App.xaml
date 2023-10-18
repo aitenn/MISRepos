@@ -10,10 +10,6 @@
             <v:HomePageView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:FeedbackRegisterViewModel}">
-            <v:FeedbackRegisterView/>
-        </DataTemplate>
-
         <DataTemplate DataType="{x:Type vm:AttendanceRegisterViewModel}">
             <v:AttendanceRegisterView/>
         </DataTemplate>

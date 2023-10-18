@@ -1,4 +1,4 @@
-﻿namespace MISApp.Models
+﻿/*namespace MISApp.Models
 {
     public class NullGrade : Grade
     {
@@ -13,3 +13,4 @@
         }
     }
 }
+*/

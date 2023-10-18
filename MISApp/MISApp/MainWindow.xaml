@@ -19,9 +19,8 @@
             </LinearGradientBrush>
         </DockPanel.Background>
 
-        <UniformGrid DockPanel.Dock="Bottom" Columns="3" Height="50">
+        <UniformGrid DockPanel.Dock="Bottom" Columns="2" Height="50">
             <Button Content="Registers" Click="RegistersClick"/>
-            <Button Content="Feedback" Click="FeedbackClick"/>
             <Button Content="Home" Click="HomeClick"/>
         </UniformGrid>
         

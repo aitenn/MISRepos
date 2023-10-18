@@ -19,8 +19,6 @@ namespace MISApp
 
         private void RegistersClick(object sender, RoutedEventArgs e) => this.viewModel.ActiveViewModel = new AttendanceRegisterViewModel();
 
-        private void FeedbackClick(object sender, RoutedEventArgs e) => this.viewModel.ActiveViewModel = new FeedbackRegisterViewModel();
-
         private void HomeClick(object sender, RoutedEventArgs e) => this.viewModel.ActiveViewModel = new HomePageViewModel();
 
     }
