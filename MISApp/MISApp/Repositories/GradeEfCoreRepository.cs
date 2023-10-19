@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-namespace MISApp.Repositories
+/*namespace MISApp.Repositories
 {
     public class GradeEfCoreRepository
     {
@@ -48,4 +48,4 @@ namespace MISApp.Repositories
             this.dbContext.SaveChanges();
         }
     }
-}
+}*/

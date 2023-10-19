@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="MISApp.Views.AttendanceRegisterView"
+﻿<UserControl x:Class="MISApp.Views.ConditionView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,8 +6,8 @@
              xmlns:local="clr-namespace:MISApp.Views"
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="500">
-    <Grid >
-        <Grid.Background>
+    <DockPanel >
+        <DockPanel.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF360F5B"/>
                 <GradientStop Color="#FF3B1A59"/>
@@ -17,6 +17,15 @@
                 <GradientStop Color="#FF4C296D" Offset="0.599"/>
                 <GradientStop Color="#FF87838A" Offset="0.971"/>
             </LinearGradientBrush>
-        </Grid.Background>
-    </Grid>
+        </DockPanel.Background>
+
+        <StackPanel>
+            <DockPanel Dock="Right">
+                <Label Width="400"/>
+                <Button Content="Log Out" Height="40"/>
+            </DockPanel>
+
+        </StackPanel>
+
+    </DockPanel>
 </UserControl>

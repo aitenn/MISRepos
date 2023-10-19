@@ -5,8 +5,8 @@ namespace MISApp.MyDBContext
 {
     public class MyDbContext : DbContext
     {
-        public DbSet<Grade> Grades { get; set; }
-        public DbSet<Student> Students { get; set; }
+       // public DbSet<Grade> Grades { get; set; }
+        //public DbSet<Student> Students { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

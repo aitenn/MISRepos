@@ -10,22 +10,6 @@
             <v:HomePageView/>
         </DataTemplate>
 
-        <DataTemplate DataType="{x:Type vm:FeedbackRegisterViewModel}">
-            <v:FeedbackRegisterView/>
-        </DataTemplate>
-
-        <DataTemplate DataType="{x:Type vm:AttendanceRegisterViewModel}">
-            <v:AttendanceRegisterView/>
-        </DataTemplate>
-
-        <DataTemplate DataType="{x:Type vm:StudentsViewModel}">
-            <v:StudentsView/>
-        </DataTemplate>
-
-        <DataTemplate DataType="{x:Type vm:TeachersViewModel}">
-            <v:TeachersView/>
-        </DataTemplate>
-
         <DataTemplate DataType="{x:Type vm:LogInViewModel}">
             <v:LogInView/>
         </DataTemplate>

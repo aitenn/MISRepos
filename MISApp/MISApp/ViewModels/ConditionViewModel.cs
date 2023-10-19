@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MISApp.ViewModels
 {
-    public class LogInViewModel : ViewModelBase
+    class ConditionViewModel : ViewModelBase
     {
     }
 }
